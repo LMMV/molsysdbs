@@ -1,0 +1,36 @@
+# Codex
+codex_session.sh
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Test/coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Docs
+/docs/_build/
+
+# Caches/tools
+.mypy_cache/
+.ruff_cache/
+.tox/
+.hypothesis/
+
+# IDEs/editors
+.vscode/
+.idea/
