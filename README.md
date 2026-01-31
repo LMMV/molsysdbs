@@ -16,3 +16,11 @@ download_uniprot_json("P69905", out_dir="data")
 
 - Tests: `pytest`
 - Docs: `sphinx-build -b html docs docs/_build`
+
+### Conda environment (developers)
+
+```bash
+conda env create -f environment.yml
+conda activate molsysdbs
+pip install -e .
+```
